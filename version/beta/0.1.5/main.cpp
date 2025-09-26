@@ -1,9 +1,9 @@
 #include "utils.hpp"
-#include "strsplit.hpp"
+#include "hinclude.hpp"
 
 #define K_PRETYPE (std::string)"Beta"
 #define K_VERSION (std::string)"0.1.5"
-#define K_DAY 25
+#define K_DAY 26 //25
 #define K_MON 9
 #define K_YEAR 2025
 
@@ -19,8 +19,8 @@ int main () {
 		cout << "\n>>>$";
 		getline(cin, input);
 		splitString = split(input, ' ');
-		arg0 = splitString.at(0);
-		cout << arg0;
+		arg0 = splitString[0];
+
 	}
 	cout << endl;
 	return 0;
