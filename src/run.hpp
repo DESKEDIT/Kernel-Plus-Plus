@@ -1,3 +1,4 @@
+#ifndef RUNMOD
 #include "m.hpp"
 
 #include "utils.hpp"
@@ -20,3 +21,6 @@ int runcode(std::vector<std::string> code) {
 	}
 	return RVAL;
 };
+
+#define RUNMOD
+#endif

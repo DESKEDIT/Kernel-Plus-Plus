@@ -1,3 +1,4 @@
+#ifndef STRSPLIT
 #include "utils.hpp"
 
 using namespace std;
@@ -13,3 +14,6 @@ std::vector<std::string> split(const std::string& str, char delimiter) {
     }
     return result;
 }
+
+#define STRSPLIT
+#endif
