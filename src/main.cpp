@@ -26,7 +26,7 @@ int main () {
 	cout << endl;
 	bool running = true;
 	
-	while (true) {
+	while (running) {
 		// Get user input
 		cout << ">>>$ ";
 		getline(cin, input);
@@ -37,9 +37,9 @@ int main () {
 		if (splitString.size() != 0) {
 			retval = runcode(splitString);
 			if (retval == 1) {
-				break;
+				running = false;
 			} else if (retval != 0) {
-				// Code for doing an error
+				KrnlErr(retval);
 			}
 		}
 		if (input != "") cout << endl;

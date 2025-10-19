@@ -19,7 +19,7 @@ int runcode(std::vector<std::string> code) {
 	} else if (arg0 == "ver") {
 		std::cout << K_STARTUP;
 	} else if (arg0 == "syserr") {
-		KrnlErr("STD_USRMADE_ERR");
+		KrnlErr(1, "STD_USRMADE_ERR");
 		RVAL = 1;
 	} else {
 		std::cout << "Unknown or unimplemented command";
