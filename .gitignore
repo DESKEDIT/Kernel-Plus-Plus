@@ -1,0 +1,13 @@
+# Visual studio files
+*.sln
+*.vcxitems
+*.vcxproj
+*.vcxproj.filters
+*.vdproj
+
+# Visual Studio Code files
+.vscode/**
+
+# Binary files
+/bin
+/obj
