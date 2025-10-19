@@ -12,7 +12,8 @@ int runcode(std::vector<std::string> code) {
 		std::cout <<
 				K_STARTUP << " - implemented commands" << std::endl <<
 				std::endl << "VER : prints the version number to the screen" <<
-				std::endl << "EXIT / QUIT : quits Kernel";
+				std::endl << "EXIT / QUIT : quits Kernel" <<
+				std::endl << "SYSERR : executes the error command with error message STD_USRMADE_ERR";
 	} else if (arg0 == "exit" || arg0 == "quit") {
 		return 1;
 	} else if (arg0 == "ver") {

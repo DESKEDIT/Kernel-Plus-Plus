@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// Checks if an item is in a string vector
 bool isInStrVec(vector<string> vec, string str) {
 	for (string val : vec)
 		if (val == str)
@@ -13,7 +14,9 @@ bool isInStrVec(vector<string> vec, string str) {
 }
 
 int main () {
-	cout << K_STARTUP;
+	cout << K_STARTUP; // output the starting text
+
+	// initial variables
 	string input;
 	vector<string> splitString;
 	vector<string> nNlRF = {"exit", ""};
@@ -22,7 +25,9 @@ int main () {
 	char delim = ' ';
 	cout << endl;
 	bool running = true;
+	
 	while (true) {
+		// Get user input
 		cout << ">>>$ ";
 		getline(cin, input);
 		// Convert string to lowercase
