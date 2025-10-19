@@ -23,7 +23,7 @@ int main () {
 	cout << endl;
 	bool running = true;
 	while (true) {
-		cout << ">>>$";
+		cout << ">>>$ ";
 		getline(cin, input);
 		// Convert string to lowercase
 		transform(input.begin(), input.end(), input.begin(), 
