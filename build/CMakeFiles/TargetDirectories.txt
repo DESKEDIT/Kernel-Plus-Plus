@@ -1,0 +1,3 @@
+C:/Users/daver/OneDrive/Documents/GitHub/gc/HR/Kernel-Plus-Plus/build/CMakeFiles/Kernel.dir
+C:/Users/daver/OneDrive/Documents/GitHub/gc/HR/Kernel-Plus-Plus/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/daver/OneDrive/Documents/GitHub/gc/HR/Kernel-Plus-Plus/build/CMakeFiles/ZERO_CHECK.dir

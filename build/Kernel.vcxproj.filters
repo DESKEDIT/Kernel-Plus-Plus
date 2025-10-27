@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\daver\OneDrive\Documents\GitHub\gc\HR\Kernel-Plus-Plus\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\daver\OneDrive\Documents\GitHub\gc\HR\Kernel-Plus-Plus\src\hinclude.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\daver\OneDrive\Documents\GitHub\gc\HR\Kernel-Plus-Plus\src\m.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\daver\OneDrive\Documents\GitHub\gc\HR\Kernel-Plus-Plus\src\run.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\daver\OneDrive\Documents\GitHub\gc\HR\Kernel-Plus-Plus\src\strsplit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\daver\OneDrive\Documents\GitHub\gc\HR\Kernel-Plus-Plus\src\syserr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\daver\OneDrive\Documents\GitHub\gc\HR\Kernel-Plus-Plus\src\utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\daver\OneDrive\Documents\GitHub\gc\HR\Kernel-Plus-Plus\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D985E399-A9A4-3CE7-9B62-A70DCB984976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0C53DE91-5C3E-3890-82A8-0DE49CEE398C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
