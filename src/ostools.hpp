@@ -20,5 +20,4 @@ void ClearScreen()
 }
 
 #define OS_TOOLS
-#endifdefined(__unix__) || defined(__unix) || defined(__linux__) || (defined(__APPLE__) && defined(__MACH__))
-
+#endif

@@ -2,18 +2,26 @@
 
 #include "utils.hpp"
 #include "hinclude.hpp"
+#include "ostools.hpp"
 
 using namespace std;
 
 // Checks if an item is in a string vector
-bool isInStrVec(vector<string> vec, string str) {
+bool isInStrVec(vector<string> vec, string str) 
+{
 	for (string val : vec)
 		if (val == str)
 			return true;
 	return false;
 }
 
-int main () {
+int main () 
+{
+  if (IsOSCompatible())
+  {
+    KrnlErr(2, "The OS you are using is not compatible with this version of Kernel. Please use Unix, Linux, MacOS, or Windows to run Kernel.");
+    return 2;
+  }
 	cout << K_STARTUP; // output the starting text
 
 	// initial variables
@@ -40,6 +48,7 @@ int main () {
 				running = false;
 			} else if (retval != 0) {
 				KrnlErr(retval);
+        return retval;
 			}
 		}
 		if (input != "") cout << endl;
