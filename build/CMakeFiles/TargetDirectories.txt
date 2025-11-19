@@ -1,0 +1,3 @@
+/media/harry/Machio/Programming/kernel-plus-plus/build/CMakeFiles/Kernel.dir
+/media/harry/Machio/Programming/kernel-plus-plus/build/CMakeFiles/edit_cache.dir
+/media/harry/Machio/Programming/kernel-plus-plus/build/CMakeFiles/rebuild_cache.dir
