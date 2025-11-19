@@ -9,6 +9,4 @@ A remake of the original Kernel written in C++
 > EXIT / QUIT : exits kernel
 
 ## TODO
-> add a crash screen
->
 > add more commands
