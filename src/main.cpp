@@ -17,7 +17,7 @@ bool isInStrVec(vector<string> vec, string str)
 
 int main () 
 {
-  if (IsOSCompatible())
+  if (!IsOSCompatible())
   {
     KrnlErr(2, "The OS you are using is not compatible with this version of Kernel. Please use Unix, Linux, MacOS, or Windows to run Kernel.");
     return 2;

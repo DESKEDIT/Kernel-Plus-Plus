@@ -4,7 +4,9 @@
 
 bool IsOSCompatible()
 {
-#if defined(__unix__) || defined(__unix) || defined(__linux__) || (defined(__APPLE__) && defined(__MACH__)) || defined(_WIN32) || defined(_WIN64) 
+#if defined(__unix__) || defined(__unix) || defined(__linux__) || (defined(__APPLE__) && defined(__MACH__)) 
+  return true;
+#elif defined(_WIN32) || defined(_WIN64)
   return true;
 #endif
   return false;
