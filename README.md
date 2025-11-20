@@ -11,5 +11,3 @@ A remake of the original Kernel written in C++
 ## TODO
 > add more commands
 
-## NOTES
-> Kernel is currently __NOT__ running on Windows (as in not detecting that it is running on Windows.) Please use on Linux
