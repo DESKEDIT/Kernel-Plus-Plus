@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.16)
-project(Kernel)
+project(kernel)
 set(KERNEL_VERSION 0.2.1-dev)
 
-add_executable(Kernel
+add_executable(kernel
     src/hinclude.hpp
     src/m.hpp
     src/run.hpp
