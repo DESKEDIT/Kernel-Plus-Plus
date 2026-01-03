@@ -1,7 +1,7 @@
 #ifndef MACRO_DEFAULT
 #define K_PRETYPE (std::string)"Beta"
-#define K_VERSION (std::string)"0.2.1"
-#define K_DAY (std::string)"01"
+#define K_VERSION (std::string)"0.2.2-dev"
+#define K_DAY (std::string)"03"
 #define K_MON (std::string)"01"
 #define K_YEAR (std::string)"2026"
 
